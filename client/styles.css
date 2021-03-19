@@ -1,0 +1,45 @@
+#error{
+    color:red;
+}
+#form{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:350px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 8px;
+    padding:30px;
+    background-color: skyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+#form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#form > button{
+    align-self: flex-end;
+    padding:10px;
+    border:none;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: white;
+}
+
+#form > div> input{
+    padding:10px;
+    border:none;
+    border-radius: 6px;
+}
+
+.success{
+    background-color: green;
+    color:white;
+}
